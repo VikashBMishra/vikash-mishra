@@ -1,439 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-     <meta name="google-site-verification" content="ZbFCko6CgUlVRF8h0NQMGIBojAXoC8qxROO25GZmW5I" />
-    <title>Vikash Mishra Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="oRxYLqgPBUaLn8NTxt_1vcCwE8DgU0yV9b-cla2ezHo" />
+  <title>VIKASH MISHRA — PORTFOLIO</title>
+  <!-- Combined Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;700;800&family=Montserrat:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <link rel="stylesheet" href="css/aos.css">
+<body>
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+  <div class="cursor-dot"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
 
+  <canvas id="particles-canvas"></canvas>
+  <div class="bg-monogram">VM</div>
 
+  <!-- Hybrid Navbar: Modern Layout + Buttons -->
+  <nav class="nav glass-nav">
+    <a href="#" class="brand">VM.</a>
+    <div class="nav-links">
+      <a href="#about" class="nav-item-1">About</a>
+      <a href="#projects" class="nav-item-2">Work</a>
+      <a href="#skills" class="nav-item-3">Skills</a>
+      <a href="#experience" class="nav-item-4">Experience</a>
+      <a href="#education" class="nav-item-6">Education</a>
+      <a href="#contact" class="nav-item-5">Contact</a>
+    </div>
+    <div class="nav-btns">
+      <a href="https://github.com/vikash0885/vikash-mishra" target="_blank">
+        <button class="repo-btn">Visit Repo ↗</button>
+      </a>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
 
-<style>
+  <main>
+    <!-- Mixed Hero: Massive Text + Profile Ring -->
+    <section class="hero" id="about">
+      <div class="hero-left">
+        <h1 class="reveal-text">VIKASH</h1>
+        <h1 class="reveal-text indented">MISHRA</h1>
 
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
+        <h3 class="typing-container">
+          I am a <span class="typing-text"></span><span class="cursor"></span>
+        </h3>
 
 
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
+        <div class="buttons">
+          <a href="https://github.com/vikash0885" class="btn primary" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="Vikash_Mishra_Resume.pdf" class="btn secondary" target="_blank">Resume ⬇</a>
+        </div>
 
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
+        <!-- Social Media Buttons below GitHub and Resume -->
+        <div class="buttons social-button-row">
+          <a href="https://www.linkedin.com/in/mishra-vikash1" class="btn btn-linkedin" target="_blank">
+            LinkedIn
+          </a>
+          <a href="https://www.instagram.com/mishra_.vikash" class="btn btn-instagram" target="_blank">
+            Instagram
+          </a>
+        </div>
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
+        <div class="hero-desc stylish-bio">
+          <p>I'm <span class="accent">Vikash Mishra</span>, an aspiring Software Developer with a passion for building innovative solutions, solving complex problems, and continuously learning new technologies.</p>
+          <br>
+          <p>I have developed a strong foundation in <span class="accent">Java, Python, C++, Data Structures & Algorithms, HTML, CSS, JavaScript</span>, and <span class="accent">web development</span> through academic projects, internships, and hands-on experience. I enjoy building scalable, user-friendly applications while writing clean, efficient, and maintainable code.</p>
+          <br>
+          <p>I believe in continuous learning, collaboration, and turning ideas into impactful software. Currently, I'm seeking <span class="accent">internship</span> and <span class="accent">entry-level software development opportunities</span> where I can contribute, grow my skills, and gain real-world industry experience.</p>
+        </div>
+      </div>
 
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
+      <div class="hero-right">
+        <!-- Restored Profile Ring with Modern Twist -->
+        <div class="profile-ring">
+          <div class="glow-circle"></div>
+          <img src="profile.jpg" alt="Profile" class="profile-img active">
+        </div>
+      </div>
 
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Vikash Mishra</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Namaste!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Vikash Mishra</span></h1>
-
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
-
-						<script>
-
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
-						const typingTexts = [
-						'CsStudent  ',
-						'Editor  ',
-						'Developer  ',
-						];
-
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <h2>A Software Developer</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over  years of experience</h2> -->
-						<!-- <br> -->
-			            <p><a href="https://www.youtube.com/channel/iammishravikash" class="btn btn-primary py-3 px-4">YouTube</a> 
-<!-- 							<a href="https://github.com/vikash0885" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p> -->
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
     </section>
 
-
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Vikash Mishra</span></p>
-										<p><span class="title-s">Job Role: </span> <span>CS Student</span></p>
-<!-- 										<p><span class="title-s">Experience: </span> <span> Months</span></p> -->
-										<p><span class="title-s">Address: </span> <span>Ghaziabad, Uttar Pradesh</span></p>
-									  </div>
-									</div>
-								 <div class="skill-mf">
-									<p class="title-s">Skills</p>
-									 <br>
-									<span>html </span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									</div>
-									<div class="skill-mf">
-									<!-- <p class="title-s">Skills</p> -->
-									<span>C Language</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>With over 6 month of comprehensive experience in the field of computer science, accompanied by a bachelor's degree (BCA). 
-									Proficient in Web Development, software engineering, video editing. 
-									Demonstrated success in leading impactful projects and providing effective mentorship.</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Software Developer &amp; AI engineer</span></li>
-							    <!--<li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li>-->
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Computer Applications</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi , Bhojpuri</span></li>
-									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI </span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Excel, html, css &amp; editing</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, learning</span></li>
-									
-								</ul>
-							</div>
-						</div>
-
-
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
- 									<!--<span class="number" data-number="">1</span> <span>+</span> -->
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/vikash-mishra-0a0a3330a/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-
-	  <div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2024-2027</span>
-    					<h2>Bachelor of Computer Application</h2>
-    					<span class="position">Chaudhary Charan Singh University</span>
-					<img src="images/ccsu.png" alt="CCSU" width="300" height="100" />
-    					<p class="mt-4">Grade: First class distinction.</p>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2022-2024</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">BPS COLLEGE BHORE,GOPALGANJ</span>
-					<img src="images/bps.png" alt="BPS" width="300" height="100" />
-
-    					<p class="mt-4">Grade: First class distinction.</p>
-    				</div>
-				</div>
-    		</div>
-
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-  </div>
-	</section>
-
-
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
+    <!-- Restored Skills Grid with Hybrid Styling -->
+    <section class="skills" id="skills">
+      <div class="section-header">CAPABILITIES</div>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-html5" style="color: #e34c26;"></i></div>
+          <h3>HTML5</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 95%; background: #e34c26;"></div>
+          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-css3-alt" style="color: #2965f1;"></i></div>
+          <h3>CSS3</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 90%; background: #2965f1;"></div>
+          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-js" style="color: #f7df1e;"></i></div>
+          <h3>JavaScript</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 88%; background: #f7df1e;"></div>
+          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-react" style="color: #61dafb;"></i></div>
+          <h3>React</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 75%; background: #61dafb;"></div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-node-js" style="color: #68a063;"></i></div>
+          <h3>Node.js</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 82%; background: #68a063;"></div>
+          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-python" style="color: #306998;"></i></div>
+          <h3>Python</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 80%; background: linear-gradient(90deg, #306998, #ffd43b);">
+            </div>
           </div>
         </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Gopalganj, Bihar</p>
-	          </div>
+        <!-- Computer Science Core -->
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fas fa-code" style="color: #00599c;"></i></div>
+          <h3>C / C++</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 85%; background: #00599c;"></div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 0 101 0101 808</a></p>
-	          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fas fa-layer-group" style="color: #8a2be2;"></i></div>
+          <h3>DSA</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 75%; background: #8a2be2;"></div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">conctact@vm8409250@gmail.com</a></p>
-	          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fas fa-database" style="color: #f29111;"></i></div>
+          <h3>DBMS (SQL)</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 80%; background: #f29111;"></div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
-	          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-git-alt" style="color: #f05032;"></i></div>
+          <h3>Git & GitHub</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 90%; background: #f05032;"></div>
           </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fab fa-linux" style="color: #fcc624;"></i></div>
+          <h3>Linux</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 70%; background: #fcc624;"></div>
+          </div>
+        </div>
 
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<!--<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>-->
-				</div>
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.youtube.com/channel/iammishravikash"><span class="icon-youtube"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/vikash-mishra-0a0a3330a/"><span class="icon-linkedin"></span></a></li>  
-					 <li class="ftco-animate"><a href="https://twitter.com/iammishravikash"><span class="icon-twitter"></span></a></li>
-					  <li class="ftco-animate"><a href="https://www.facebook.com/mishra0885"><span class="icon-facebook"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/iammishravikash/?hl=en/"><span class="icon-instagram"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
+        <!-- AI & Cloud -->
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fas fa-robot" style="color: #61dafb;"></i></div>
+          <h3>AI & ML</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 65%; background: #61dafb;"></div>
+          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fas fa-comment-dots" style="color: #ff9a9e;"></i></div>
+          <h3>Prompt Eng.</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 85%; background: #ff9a9e;"></div>
+          </div>
+        </div>
+        <div class="skill-card glass">
+          <div class="skill-overlay"></div>
+          <div class="skill-icon"><i class="fas fa-cloud" style="color: #4285f4;"></i></div>
+          <h3>Cloud / API</h3>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-bar" style="width: 60%; background: #4285f4;"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Experience Section (New) -->
+    <section class="experience-section" id="experience">
+      <div class="section-header">PROFESSIONAL EXPERIENCE</div>
+
+      <!-- Reverted to Grid Layout -->
+      <div class="experience-grid">
+        <!-- GeeksforGeeks -->
+        <div class="exp-item">
+          <div class="exp-card glass exp-new"
+            style="background-image: url('gfg-logo-new.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #ffffff;">
+            <div class="skill-overlay"></div>
+            <div class="exp-icon"><i class="fas fa-university"></i></div>
+          </div>
+          <div class="exp-details-below">
+            <div class="exp-date">2026 – Present</div>
+            <h3 class="exp-role">Campus Mantri</h3>
+            <h4 class="exp-org"><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks <i
+                  class="fas fa-external-link-alt"></i></a></h4>
+            <a href="https://www.geeksforgeeks.org/" target="_blank" class="exp-visit">VISIT ORGANIZATION →</a>
+          </div>
+        </div>
+
+        <!-- Edunet -->
+        <div class="exp-item">
+          <div class="exp-card glass exp-1"
+            style="background-image: url('edunet-logo-final.png'); background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #fff;">
+            <div class="skill-overlay"></div>
+            <div class="exp-icon"><i class="fas fa-robot"></i></div>
+          </div>
+          <div class="exp-details-below">
+            <div class="exp-date">Dec 2025 – Present</div>
+            <h3 class="exp-role">AI & ML Intern</h3>
+            <h4 class="exp-org"><a href="https://sb4al.edunetworld.com/" target="_blank"></a>Edunet Foundation <i
+                class="fas fa-external-link-alt"></i></a></h4>
+            <a href="https://sb4al.edunetworld.com/" target="_blank" class="exp-visit">VISIT ORGANIZATION →</a>
+          </div>
+        </div>
+
+        <!-- EDC IIT Delhi -->
+        <div class="exp-item">
+          <div class="exp-card glass exp-2"
+            style="background-image: url('edc-ambassador.jpg'); background-size: cover; background-position: center;">
+            <div class="skill-overlay"></div>
+            <div class="exp-icon"><i class="fas fa-bullhorn"></i></div>
+          </div>
+          <div class="exp-details-below">
+            <div class="exp-date">Dec 2025 – Present</div>
+            <h3 class="exp-role">Campus Ambassador</h3>
+            <h4 class="exp-org"><a href="https://www.edciitd.com/" target="_blank">EDC IIT Delhi <i
+                  class="fas fa-external-link-alt"></i></a></h4>
+            <a href="https://www.edciitd.com/" target="_blank" class="exp-visit">VISIT ORGANIZATION →</a>
+          </div>
+        </div>
+
+        <!-- Internshala -->
+        <div class="exp-item">
+          <div class="exp-card glass exp-3"
+            style="background-image: url('internshala-isp.png'); background-size: cover; background-position: center;">
+            <div class="skill-overlay"></div>
+            <div class="exp-icon"><i class="fas fa-handshake"></i></div>
+          </div>
+          <div class="exp-details-below">
+            <div class="exp-date">Oct 2025 – Dec 2025</div>
+            <h3 class="exp-role">Student Partner (ISP)</h3>
+            <h4 class="exp-org"><a href="https://internshala.com/" target="_blank">Internshala <i
+                  class="fas fa-external-link-alt"></i></a></h4>
+            <a href="https://internshala.com/" target="_blank" class="exp-visit">VISIT ORGANIZATION →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-header">SELECTED WORKS</div>
+
+      <div class="projects-grid">
+        <!-- STUDY_BUDDY -->
+        <div class="project-item">
+          <div class="project-card glass proj-study-buddy">
+            <div class="project-img-container">
+              <img src="study-buddy-promo.png" alt="Study Buddy">
+              <div class="project-overlay"></div>
+            </div>
+          </div>
+          <div class="project-details-below">
+            <div class="project-tags"><span class="tag">FLASK</span><span class="tag">PYTHON</span></div>
+            <h2 class="work-title">STUDY_BUDDY</h2>
+            <p>Collaborative learning platform for students.</p>
+          </div>
+        </div>
+
+        <!-- PRO_TASK -->
+        <div class="project-item">
+          <div class="project-card glass proj-pro-task">
+            <div class="project-img-container">
+              <img src="education.jpg" alt="Task Stream">
+              <div class="project-overlay"></div>
+            </div>
+          </div>
+          <div class="project-details-below">
+            <div class="project-tags"><span class="tag">REACT</span><span class="tag">SYSTEM</span></div>
+            <h2 class="work-title">PRO_TASK</h2>
+            <p>Modern task management system with drag & drop.</p>
+          </div>
+        </div>
+
+        <!-- FOOD WASTE REDUCTION WEBSITE -->
+        <div class="project-item">
+          <div class="project-card glass proj-food-waste">
+            <div class="project-img-container">
+              <img src="food-waste.jpg" alt="Food Waste Reduction Website">
+              <div class="project-overlay"></div>
+            </div>
+          </div>
+          <div class="project-details-below">
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <h2 class="work-title">Food Waste Reduction Website</h2>
+            <p>Developed a platform connecting restaurants with NGOs to reduce food wastage.</p>
+          </div>
+        </div>
+
+        <!-- AI RESUME ANALYZER -->
+        <div class="project-item">
+          <div class="project-card glass proj-resume-analyzer">
+            <div class="project-img-container">
+              <img src="resume-analyzer.png" alt="AI Resume Analyzer">
+              <div class="project-overlay"></div>
+            </div>
+          </div>
+          <div class="project-details-below">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Streamlit</span>
+              <span class="tag">NLP</span>
+            </div>
+            <h2 class="work-title">AI Resume Analyzer</h2>
+            <p>Built an ATS-based resume analyzer that evaluates resumes and provides improvement suggestions.</p>
+          </div>
+        </div>
+
+        <!-- SALES DATA ANALYTICS DASHBOARD -->
+        <div class="project-item">
+          <div class="project-card glass proj-sales">
+            <div class="project-img-container">
+              <img src="sales-dashboard.png" alt="Sales Data Analytics Dashboard">
+              <div class="project-overlay"></div>
+            </div>
+          </div>
+          <div class="project-details-below">
+            <div class="project-tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">Excel</span>
+              <span class="tag">SQL</span>
+            </div>
+            <h2 class="work-title">Sales Data Analytics Dashboard</h2>
+            <p>Designed an interactive dashboard to analyze sales trends, revenue, and customer insights.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education (Restored) -->
+    <section class="education-section" id="education">
+      <div class="section-header">ACADEMIC JOURNEY</div>
+      <div class="education-grid">
+        <!-- College Card -->
+        <div class="edu-card-group">
+          <!-- Image Box -->
+          <div class="edu-card glass"
+            style="background-image: url('college-bg-final.jpg'); background-size: cover; background-position: center; position: relative; z-index: 1; height: 250px; border-radius: 20px;">
+            <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.3); z-index: -1; border-radius: 20px;">
+            </div>
+            <div class="edu-info-container" style="justify-content: center; height: 100%;">
+              <div class="edu-icon"><i class="fas fa-graduation-cap" style="color: #fff;"></i></div>
+            </div>
+          </div>
+          <!-- Text Details Below -->
+          <div class="edu-details-below" style="margin-top: 15px; text-align: center;">
+            <span class="edu-year" style="display: block; color: #00ff00; font-weight: bold;">2024 – 2027</span>
+            <h3 style="margin: 5px 0; color: #00e5ff;">BCA (Bachelor of Computer Application)</h3>
+            <p class="edu-inst" style="color: #fff; font-weight: 500;">Sunder Deep Group of Institutions</p>
+          </div>
+        </div>
+
+        <!-- School Card -->
+        <div class="edu-card-group">
+          <!-- Image Box -->
+          <div class="edu-card glass"
+            style="background-image: url('school-bg-final-3.jpg'); background-size: cover; background-position: center; position: relative; z-index: 1; height: 250px; border-radius: 20px;">
+            <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.3); z-index: -1; border-radius: 20px;">
+            </div>
+            <div class="edu-info-container" style="justify-content: center; height: 100%;">
+              <div class="edu-icon"><i class="fas fa-school" style="color: #fff;"></i></div>
+            </div>
+          </div>
+          <!-- Text Details Below -->
+          <div class="edu-details-below" style="margin-top: 15px; text-align: center;">
+            <span class="edu-year" style="display: block; color: #00ff00; font-weight: bold;">2022 – 2024</span>
+            <h3 style="margin: 5px 0; color: #00e5ff;">Higher Secondary (12th) - Science</h3>
+            <p class="edu-inst" style="color: #fff; font-weight: 500;">Bhola Prasad Singh College</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights Gallery Section -->
+    <section class="gallery-section" id="gallery">
+      <div class="section-header">MEMORABLE HIGHLIGHTS</div>
+      <div class="gallery-slider-container">
+        <div class="gallery-track">
+          <!-- Slide 1 -->
+          <div class="gallery-slide">
+            <div class="gallery-card glass" style="background-image: url('gallery2.jpg');">
+              <div class="gallery-overlay">
+                <h3>EDC IIT Delhi</h3>
+                <p>Campus Representative</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="gallery-slide">
+            <div class="gallery-card glass" style="background-image: url('gallery3.jpg');">
+              <div class="gallery-overlay">
+                <h3>OpenAI Visit</h3>
+                <p>AI Tech Showcase</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="gallery-slide">
+            <div class="gallery-card glass" style="background-image: url('gallery4.jpg');">
+              <div class="gallery-overlay">
+                <h3>AI Impact Summit</h3>
+                <p>Meeting Global Leaders</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="gallery-slide">
+            <div class="gallery-card glass" style="background-image: url('gallery5.jpg');">
+              <div class="gallery-overlay">
+                <h3>IIT Delhi Campus</h3>
+                <p>Academic Exposure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="gallery-controls">
+          <button class="gallery-arrow prev-arrow"><i class="fas fa-chevron-left"></i></button>
+          <button class="gallery-arrow next-arrow"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-header">GET IN TOUCH</div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2 class="lets-talk">LET'S<br>TALK</h2>
+          <p class="contact-sub">Have a project in mind? Let's build something extraordinary.</p>
+          <div class="contact-details">
+            <a href="mailto:vm8409250@gmail.com" class="email-link">vm8409250@gmail.com</a>
+            <div class="footer-links-new">
+              <a href="https://github.com/vikash0885" target="_blank" class="footer-social-link">GITHUB</a>
+              <a href="https://www.linkedin.com/in/mishra-vikash1" target="_blank" class="footer-social-link">LINKEDIN</a>
+              <a href="https://www.instagram.com/mishra_.vikash" target="_blank" class="footer-social-link">INSTAGRAM</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    © 2026 Vikash | Architected by Vikash
+  </footer>
+
+  <script>
+    const cursorDot = document.querySelector('.cursor-dot');
+    const cursorOutline = document.querySelector('.cursor-outline');
+    const monogram = document.querySelector('.bg-monogram');
+
+    window.addEventListener('mousemove', function (e) {
+      const posX = e.clientX;
+      const posY = e.clientY;
+      cursorDot.style.left = `${posX}px`;
+      cursorDot.style.top = `${posY}px`;
+      cursorOutline.animate({
+        left: `${posX}px`,
+        top: `${posY}px`
+      }, { duration: 500, fill: "forwards" });
+
+      // Monogram Parallax effect
+      if (monogram) {
+        const moveX = (posX - window.innerWidth / 2) * 0.02;
+        const moveY = (posY - window.innerHeight / 2) * 0.02;
+        monogram.style.setProperty('--mx', `${moveX}px`);
+        monogram.style.setProperty('--my', `${moveY}px`);
+      }
+    });
+
+    // Typing Animation Script
+    const textElement = document.querySelector('.typing-text');
+    const phrases = ["Full Stack Developer", "AI Enthusiast"];
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typeSpeed = 100;
+
+    function type() {
+      const currentPhrase = phrases[phraseIndex];
+
+      if (isDeleting) {
+        textElement.textContent = currentPhrase.substring(0, charIndex - 1);
+        charIndex--;
+        typeSpeed = 50;
+      } else {
+        textElement.textContent = currentPhrase.substring(0, charIndex + 1);
+        charIndex++;
+        typeSpeed = 100;
+      }
+
+      if (!isDeleting && charIndex === currentPhrase.length) {
+        isDeleting = true;
+        typeSpeed = 2000;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        typeSpeed = 500;
+      }
+
+      setTimeout(type, typeSpeed);
+    }
+
+    document.addEventListener('DOMContentLoaded', type);
+
+    // Mobile Menu Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = hamburger.querySelector('i');
+      if (navLinks.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      } else {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      }
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        const icon = hamburger.querySelector('i');
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      });
+    });
 
 
- 
-	
-   <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	This template is made <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://github.com/vikash0885" target="_blank">Vikash0885</a>
-	  </p>
-			</div>
-		  </div>
-		</div>
-	  </footer
 
+    // Particles Animation with drifting V and M glyphs
+    const canvas = document.getElementById('particles-canvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
-   loader
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    let particlesArray;
 
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.speedX = Math.random() * 0.3 - 0.15; // Slower drifting speed
+        this.speedY = Math.random() * 0.3 - 0.15;
+        
+        // Randomly assign type: 60% standard dot, 20% 'V' letter, 20% 'M' letter
+        const rand = Math.random();
+        if (rand < 0.60) {
+          this.type = 'dot';
+          this.size = Math.random() * 2 + 1;
+          this.color = 'rgba(0, 255, 240, 0.4)';
+        } else {
+          this.type = rand < 0.80 ? 'V' : 'M';
+          this.size = Math.random() * 12 + 8; // Drifting letters font size
+          this.color = this.type === 'V' ? 'rgba(0, 240, 255, 0.12)' : 'rgba(255, 0, 240, 0.12)';
+        }
+        
+        this.angle = Math.random() * Math.PI * 2;
+        this.spin = Math.random() * 0.004 - 0.002;
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        this.angle += this.spin;
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
+        if (this.x > canvas.width || this.x < 0) this.speedX = -this.speedX;
+        if (this.y > canvas.height || this.y < 0) this.speedY = -this.speedY;
+      }
+      draw() {
+        ctx.save();
+        ctx.shadowBlur = this.type === 'dot' ? 5 : 0;
+        ctx.shadowColor = this.color;
+        ctx.fillStyle = this.color;
+        
+        if (this.type === 'dot') {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.fill();
+        } else {
+          ctx.translate(this.x, this.y);
+          ctx.rotate(this.angle);
+          ctx.font = `${this.size}px "Share Tech Mono", monospace`;
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(this.type, 0, 0);
+        }
+        ctx.restore();
+      }
+    }
+
+    function initParticles() {
+      particlesArray = [];
+      for (let i = 0; i < 50; i++) { // Number of particles
+        particlesArray.push(new Particle());
+      }
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < particlesArray.length; i++) {
+        particlesArray[i].update();
+        particlesArray[i].draw();
+      }
+      requestAnimationFrame(animateParticles);
+    }
+
+    initParticles();
+    animateParticles();
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      initParticles();
+    });
+
+    // Gallery Slider Logic
+    const galleryTrack = document.querySelector('.gallery-track');
+    const gallerySlides = document.querySelectorAll('.gallery-slide');
+    const prevBtn = document.querySelector('.prev-arrow');
+    const nextBtn = document.querySelector('.next-arrow');
     
-  </body>
+    let galleryIndex = 0;
+    
+    function getVisibleCards() {
+      if (window.innerWidth <= 600) return 1;
+      if (window.innerWidth <= 900) return 2;
+      return 3;
+    }
+    
+    function updateGallerySlider() {
+      if (gallerySlides.length === 0) return;
+      const visibleCards = getVisibleCards();
+      const maxIndex = gallerySlides.length - visibleCards;
+      
+      if (galleryIndex > maxIndex) galleryIndex = maxIndex;
+      if (galleryIndex < 0) galleryIndex = 0;
+      
+      const slideWidth = gallerySlides[0].getBoundingClientRect().width;
+      const offset = galleryIndex * (slideWidth + 20); // 20px gap
+      
+      galleryTrack.style.transform = `translateX(-${offset}px)`;
+    }
+    
+    nextBtn.addEventListener('click', () => {
+      const visibleCards = getVisibleCards();
+      if (galleryIndex < gallerySlides.length - visibleCards) {
+        galleryIndex++;
+      } else {
+        galleryIndex = 0;
+      }
+      updateGallerySlider();
+    });
+    
+    prevBtn.addEventListener('click', () => {
+      const visibleCards = getVisibleCards();
+      if (galleryIndex > 0) {
+        galleryIndex--;
+      } else {
+        galleryIndex = gallerySlides.length - visibleCards;
+      }
+      updateGallerySlider();
+    });
+    
+    window.addEventListener('resize', updateGallerySlider);
+    // Initial call
+    updateGallerySlider();
+    
+    // Auto slide logic
+    let galleryInterval = setInterval(() => {
+      const visibleCards = getVisibleCards();
+      if (galleryIndex < gallerySlides.length - visibleCards) {
+        galleryIndex++;
+      } else {
+        galleryIndex = 0;
+      }
+      updateGallerySlider();
+    }, 4000);
+    
+    const galleryContainer = document.querySelector('.gallery-slider-container');
+    galleryContainer.addEventListener('mouseenter', () => {
+      clearInterval(galleryInterval);
+    });
+    galleryContainer.addEventListener('mouseleave', () => {
+      galleryInterval = setInterval(() => {
+        const visibleCards = getVisibleCards();
+        if (galleryIndex < gallerySlides.length - visibleCards) {
+          galleryIndex++;
+        } else {
+          galleryIndex = 0;
+        }
+        updateGallerySlider();
+      }, 4000);
+    });
+  </script>
+</body>
+
 </html>
