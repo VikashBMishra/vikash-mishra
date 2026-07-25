@@ -6,8 +6,8 @@
 I'm a passionate Software Developer and BCA student who enjoys building scalable web applications, solving Data Structures & Algorithms problems, and exploring modern technologies. I believe in continuous learning and creating impactful software solutions.
 
 ## 🔗 Live Links
-- **Personal Portfolio (Main Site):** [https://vikashbmishra.github.io/](https://vikashbmishra.github.io/)
-- **Projects & Works Repository:** [https://github.com/vikashbmishra/vikash-mishra](https://github.com/vikashbmishra/vikash-mishra)
+- **Personal Portfolio (Main Site):** https://vikashbmishra.github.io/vikashbmishra/
+- **Projects & Works Repository:**  https://github.com/VikashBMishra
 - ## 🌐 Live Links
 
 - 🚀 Portfolio: https://vikashbmishra.github.io/vikashbmishra/
