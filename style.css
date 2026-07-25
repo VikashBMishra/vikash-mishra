@@ -14,7 +14,7 @@
   --accent-lime: #ccff00;
 
   --font-display: 'Syne', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-body: 'Outfit', sans-serif;
 
   /* Glassmorphism */
   --glass-bg: rgba(255, 255, 255, 0.03);
@@ -1088,6 +1088,16 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-details-below p,
+.exp-details-below p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+  font-weight: 400;
+  max-width: 90%;
+  margin-top: 5px;
 }
 
 .project-tags {
