@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p className="text-muted">
-            &copy; {new Date().getFullYear()} PizzaHub by Vikash Mishra. All rights reserved. <br/>
+            &copy; {new Date().getFullYear()} PizzaHub by Vikash B Mishra. All rights reserved. <br/>
             <small>Oasis Infobyte Level 3 Project</small>
           </p>
         </div>
