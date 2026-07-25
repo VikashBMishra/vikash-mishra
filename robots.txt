@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vikashbmishra.github.io/sitemap.xml
+Sitemap: https://vikashbmishra.github.io/vikashbmishra/sitemap.xml
