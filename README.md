@@ -25,4 +25,4 @@ Welcome to my portfolio! I'm an aspiring Software Developer with a passion for b
 ## 📬 Contact Me
 - **Email:** [vm8409250@gmail.com](mailto:vm8409250@gmail.com)
 - **LinkedIn:** [linkedin.com/in/mishra-vikash1](https://www.linkedin.com/in/mishra-vikash1)
-- **Instagram:** [instagram.com/mishra_.vikash](https://www.instagram.com/mishra_.vikash)
+- **Instagram:** [instagram.com/vikashbmishra](https://www.instagram.com/vikashbmishra)
