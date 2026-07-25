@@ -41,11 +41,11 @@ I'm a passionate Software Developer and BCA student who enjoys building scalable
 
 ## 📊 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=vikashbmishra&show_icons=true&theme=tokyonight)
+![Stats]    (https://github-readme-stats.vercel.app/api?username=vikashbmishra&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vikashbmishra&layout=compact&theme=tokyonight)
+![Top Languages]   (https://github-readme-stats.vercel.app/api/top-langs/?username=vikashbmishra&layout=compact&theme=tokyonight)
 
-![Visitors](https://komarev.com/ghpvc/?username=vikashbmishra&label=Profile%20Views&color=0e75b6&style=flat)
+![Visitors]    (https://komarev.com/ghpvc/?username=vikashbmishra&label=Profile%20Views&color=0e75b6&style=flat)
 ## 📬 Contact Me
 - **Email:** [vm8409250@gmail.com](mailto:vm8409250@gmail.com)
 - **LinkedIn:** [linkedin.com/in/mishra-vikash1](https://www.linkedin.com/in/mishra-vikash1)
