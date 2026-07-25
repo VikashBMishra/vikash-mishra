@@ -10,7 +10,7 @@ I'm a passionate Software Developer and BCA student who enjoys building scalable
 - **Projects & Works Repository:** [https://github.com/vikashbmishra/vikash-mishra](https://github.com/vikashbmishra/vikash-mishra)
 - ## 🌐 Live Links
 
-- 🚀 Portfolio: https://vikashbmishra.github.io/
+- 🚀 Portfolio: https://vikashbmishra.github.io/vikashbmishra/
 - 💻 GitHub: https://github.com/vikashbmishra
 - 🔗 LinkedIn: https://linkedin.com/in/mishra-vikash1
 - 📷 Instagram: https://instagram.com/vikashbmishra
